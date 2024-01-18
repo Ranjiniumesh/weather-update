@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-              sh 'rm -rf hello-world-war'
+              sh 'rm -rf weather-update'
             sh 'git clone https://github.com/Ranjiniumesh/weather-update.git'
             }
         }
